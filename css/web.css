@@ -1,0 +1,13 @@
+/*--Æù--*/
+@media(max-wiidth:320px) {
+    body {
+        background:#808080
+    }
+}
+
+/*--pc--*/
+@media(max-wiidth:769px) {
+    body {
+        background: #ffd800
+    }
+}
