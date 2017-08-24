@@ -1,5 +1,8 @@
 /*--Æù--*/
 @media(min-wiidth:768px) {
+    body {
+        background: #808080
+    }
     .sideCon {
         display:none
     }
@@ -10,8 +13,5 @@
     body {
         background: #ffd800
     }
-}
-body {
-    background: #ffd800
 }
 
