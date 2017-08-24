@@ -1,6 +1,6 @@
 /*--Æù--*/
 @media(max-wiidth:767px) {
-    sideCon {
+    .sideCon {
         display:none
     }
 }
