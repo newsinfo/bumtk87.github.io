@@ -12,7 +12,9 @@
 /*--pc--*/
 @media(min-width:992px) {
     body {
-        background: #ffd800
+        /*-background: #ffd800;-*/
+        position: static;
+        width: inherit;
     }
 }
 
