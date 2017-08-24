@@ -1,12 +1,12 @@
 /*--Æù--*/
-@media(max-wiidth:320px) {
-    body {
-        background:#808080
+@media(max-wiidth:767px) {
+    sideCon {
+        display:none
     }
 }
 
 /*--pc--*/
-@media(max-wiidth:769px) {
+@media(min-wiidth:992px) {
     body {
         background: #ffd800
     }
