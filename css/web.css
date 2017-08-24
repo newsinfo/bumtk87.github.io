@@ -1,10 +1,11 @@
 /*--Æù--*/
-@media(mix-width:767px) {
+@media(max-width:768px) {
     body {
         background: #808080
     }
+
     .sideCon {
-        display:none
+        display: none
     }
 }
 
