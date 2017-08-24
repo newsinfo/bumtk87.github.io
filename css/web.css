@@ -1,5 +1,5 @@
 /*--Æù--*/
-@media(min-wiidth:768px) {
+@media(mix-width:767px) {
     body {
         background: #808080
     }
@@ -9,7 +9,7 @@
 }
 
 /*--pc--*/
-@media(mix-wiidth:769px) {
+@media(min-width:992px) {
     body {
         background: #ffd800
     }
