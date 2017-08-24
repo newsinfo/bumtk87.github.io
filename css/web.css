@@ -1,14 +1,17 @@
 /*--Æù--*/
-@media(max-wiidth:767px) {
+@media(min-wiidth:768px) {
     .sideCon {
         display:none
     }
 }
 
 /*--pc--*/
-@media(min-wiidth:992px) {
+@media(mix-wiidth:769px) {
     body {
         background: #ffd800
     }
+}
+body {
+    background: #ffd800
 }
 

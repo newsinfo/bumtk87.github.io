@@ -7,46 +7,6 @@
     <link rel="stylesheet" type="text/css" href="css/web.css" />
 
 
-    <!-- 모바일 기기로 유입시 리다이렉트 --
-    <script>
-    $(document).ready(function(){
-        if (navigator.userAgent.match(/iPad/) == null && navigator.userAgent.match(/iPhone|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Nokia|webOS|Opera Mini|SonyEricsson|opera mobi|Windows Phone|IEMobile|POLARIS/) != null){
-            var change= $("a");
-            change.click(function(f){
-                location.href = 'http://m.rich-stock.com/?src=image&kw=00000C&src=image&kw=000861&n_media=122875&n_query=%EC%A3%BC%EC%8B%9D%EC%83%81%EB%8B%B4&n_rank=22&n_ad_group=grp-m001-01-000001780155166&n_ad=nad-a001-01-000000004711070&n_keyword_id=nkw-m001-01-000001780155623&n_keyword=%EC%A3%BC%EC%8B%9D%EC%83%81%EB%8B%B4&n_campaign_type=1&NaPm=ct%3Dj6nc4ilc%7Cci%3D0zG0002OV9Hn2UqbJ0Jj%7Ctr%3Dsa%7Chk%3Dbc86537e0f30bddec610a0af827179358af8cb09&sender='; // 원하는 페이지로 이동
-            });
-        } else {
-        }
-    });
-    </script>
-    <!-- 모바일 기기로 유입시 리다이렉트 -->
-    <!-- 모바일 기기로 유입시 리다이렉트 -->
-    <!--<script type="text/javascript">
-        var mobileKeyWords = new Array('iPhone', 'iPod', 'iPad', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson');
-        for (var word in mobileKeyWords) {
-            if (navigator.userAgent.match(mobileKeyWords[word]) != null) {
-                location.href = "http://www.rich-stock.co.kr/m_index.php?src=image&kw=000861&n_media=122875&n_query=%EC%A3%BC%EC%8B%9D%EC%83%81%EB%8B%B4&n_rank=22&n_ad_group=grp-m001-01-000001780155166&n_ad=nad-a001-01-000000004711070&n_keyword_id=nkw-m001-01-000001780155623&n_keyword=%EC%A3%BC%EC%8B%9D%EC%83%81%EB%8B%B4&n_campaign_type=1&NaPm=ct%3Dj6nc4ilc%7Cci%3D0zG0002OV9Hn2UqbJ0Jj%7Ctr%3Dsa%7Chk%3Dbc86537e0f30bddec610a0af827179358af8cb09&sender=";
-                break;
-            }
-        }
-    </script>-->
-    <!-- 모바일 기기로 유입시 리다이렉트 -->
-    <!--구글애널리틱스-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-        ga('create', 'UA-67689372-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
-    <!--구글애널리틱스-->
-
-
 </head>
 
 <body style="width:100%; height:100%">
@@ -151,7 +111,6 @@
                                     </tr>
                                 </table>
                             </td>
-                            <!--side AD-->
                             <td class="sideCon" valign="top" style="border-right:1px solid #d7d7d7; border-top:1px solid #d7d7d7; border-bottom:1px solid #d7d7d7; background-color:#ffffff; cursor:pointer;">
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="position:static; width:inherit">
                                     <tr>
@@ -260,38 +219,10 @@
         </center>
     </center>
     <script type="text/javascript" src="js/jquery/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript">
-	<!--
-        $(document).ready(function () {
 
-            var speed = '1000';
-            var easing = 'swing';
-            var yPos = 0;
-            var pos = $(".left_cs").offset().top;
-
-            $(window).scroll(function () {
-                var scrollTop = $(document).scrollTop();
-                if (scrollTop > pos) {
-                    yPos = scrollTop - pos + 300;
-                } else {
-                    yPos = pos;
-                }
-                $('.left_cs').stop().animate({ "top": yPos }, 800);
-            });
-
-        });
-	//-->
-    </script>
     <!-- 네이버 공통 적용 스크립트 (아래 스크립트를 복사하신 후 모든페이지에 설치해주세요.) -->
     <!-- 공통 적용 스크립트 , 모든 페이지에 노출되도록 설치. 단 전환페이지 설정값보다 항상 하단에 위치해야함 -->
     <script type="text/javascript" src="http://wcs.naver.net/wcslog.js"> </script>
-    <script type="text/javascript">
-        if (!wcs_add) var wcs_add = {};
-        wcs_add["wa"] = "s_dc60b5b82ff";
-        if (!_nasa) var _nasa = {};
-        wcs.inflow();
-        wcs_do(_nasa);
-    </script>
-    <!-- 네이버 공통 적용 스크립트 (아래 스크립트를 복사하신 후 모든페이지에 설치해주세요.) -->
+
 </body>
 </html>
